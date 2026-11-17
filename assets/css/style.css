@@ -1,3 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --primary-color:#F4EDDD;
+    --secondary-color: #BC9B7C;
+    --tertiary-color: #9E583E;
+    --neutral-color: #F2F2F2;
+    --text-dark-color: #1F2227;
+}
+
 body {
-    background-color: #fff;
+    background-color:var(--neutral-color);
+}
+
+.title {
+    font-family: 'Inria Serif';
+    color: var(--text-dark-color);
+    margin-bottom: 24px;
+
+}
+
+.text {
+    font-family: 'Inria Sans';
+    color: var(--text-dark-color);
 }
