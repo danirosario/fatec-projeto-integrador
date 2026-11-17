@@ -22,7 +22,7 @@ body {
     font-family: 'Inria Serif';
     color: var(--text-dark-color);
     margin-bottom: 24px;
-
+    margin-top: 24px;
 }
 
 .text {
