@@ -7,15 +7,41 @@
 }
 
 :root {
-    --primary-color:#F4EDDD;
+    --primary-color: #F4EDDD;
     --secondary-color: #BC9B7C;
     --tertiary-color: #9E583E;
     --neutral-color: #F2F2F2;
     --text-dark-color: #1F2227;
 }
 
+html {
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+
 body {
-    background-color:var(--neutral-color);
+    background-color: var(--neutral-color);
+}
+
+.main {
+    min-height: 100vh;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.col {
+    margin-bottom: 20px;
+}
+
+.featured-products {
+    margin-top: 48px;
 }
 
 .title {
@@ -28,4 +54,9 @@ body {
 .text {
     font-family: 'Inria Sans';
     color: var(--text-dark-color);
+}
+
+footer {
+    position: relative;
+    bottom: 0;
 }
