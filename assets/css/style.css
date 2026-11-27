@@ -392,6 +392,40 @@ h3 {
     margin-top: 6px;
 }
 
+.checkout-step {
+    background-color: var(--primary-color);
+    color: var(--text-dark-color);
+    font-family: var(--fonte-texto);
+    font-size: 13px;
+    font-weight: 400;
+    padding: 8px 16px;
+}
+
+.checkout-step.active {
+    background-color: var(--tertiary-color);
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.checkout-alert {
+    background-color: #FDF3D7;
+    border-left: 4px solid #E5B54F;
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-size: 14px;
+    color: var(--text-dark-color);
+}
+
+.form-check-input:checked {
+    background-color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
+}
+
+.form-check-input:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.2rem rgba(158, 88, 62, 0.20);
+}
+
 footer {
     background-color: #E7E7E7;
 }
